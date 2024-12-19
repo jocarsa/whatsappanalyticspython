@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jocarsa | MediumSpringGreen</title>
+    <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+    <h1>jocarsa | MediumSpringGreen</h1>
+    <div class="chart-container">
+        {% for image in images %}
+            <img src="{{ url_for('static', filename=image) }}" alt="{{ image }}">
+        {% endfor %}
+    </div>
+</body>
+</html>

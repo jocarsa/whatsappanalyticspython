@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    color: MediumSpringGreen;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+h2 {
+    color: MediumSpringGreen;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Upload Page Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed MediumSpringGreen;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: #333;
+}
+
+button {
+    background-color: MediumSpringGreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #32cd9a;
+}
+
+/* Charts Page Styles */
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container img {
+    max-width: 400px;
+    border: 3px solid MediumSpringGreen;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chart-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: MediumSpringGreen;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
